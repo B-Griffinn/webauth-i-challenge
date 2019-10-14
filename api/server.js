@@ -11,6 +11,6 @@ server.use(helmet());
 server.use(express.json());
 
 // use routers if necessary
-server.use('/api/register', userRouter);
+server.use('/api', userRouter);
 
 module.exports = server;

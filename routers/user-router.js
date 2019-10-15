@@ -71,6 +71,4 @@ function protected(req, res, next) {
     }
 };
 
-
-
 module.exports = router;
